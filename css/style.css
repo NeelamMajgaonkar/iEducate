@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 .navbar{
     display: flex;
     position: sticky;
@@ -215,5 +218,8 @@
     }
     .contact-us form {
         max-width: 55%;
+    }
+    .form-btn {
+        width: auto;
     }
 }
